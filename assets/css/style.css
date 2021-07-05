@@ -16,6 +16,7 @@ nav{
 div{
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
 }
 .boxnav{
     display: flex;
@@ -39,7 +40,9 @@ img{
 a{
     color: #551a8b;
 }
-/* css de Etienne */
+
+
+
 .boxnav2{
     display: flex;
     flex-wrap: wrap;
@@ -54,14 +57,6 @@ body{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;        
-}
-.textstart{
-    width: 10%;
-    justify-content: flex-start;
-}
-.textstart2{
-    width: 50%;
-    justify-content: flex-start;
 }
 .fixed{
     position: fixed;
@@ -116,10 +111,6 @@ body{
     flex-wrap: wrap;
     flex-direction: row;
 }
-.textend{
-    width: 10%;
-    justify-content: flex-end;
-}
 .box{    
     height: 1000px;
     width: 100%;
@@ -127,10 +118,6 @@ body{
     flex-wrap: wrap;
     align-self: center;
     justify-content: space-between;
-}
-.row{
-    flex-direction: row;
-    align-content: center;
 }
 img.displayed{
     margin-top: 4px;
@@ -144,9 +131,6 @@ img.displayed{
     margin-bottom: 20px;   
     font-size: 30px;
     line-height: 5px;
-}
-div{
-    text-align: center;
 }
 img.displayed2{
     margin-top: 4px;
