@@ -50,10 +50,10 @@ a{
 }
 body{
     background: url(../img/bckgrnd.jpg) no-repeat fixed;
-    background-size: 100%;
+    background-size: cover;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;        
+    flex-direction: column;
 }
 .textstart{
     width: 10%;
@@ -128,7 +128,7 @@ body{
     align-self: center;
     justify-content: space-between;
 }
-.row{
+.row2{
     flex-direction: row;
     align-content: center;
 }
@@ -196,7 +196,7 @@ li{
 #menu ul li a{
     text-decoration: none;
     color: #551a8b;
-     width: 150px;
+    width: 150px;
     height: 30px;
     display: block;
     text-align: center;
@@ -209,3 +209,86 @@ li{
 #menu ul  li:hover ul{
     visibility:visible;
 }
+
+/**** LUCILE START ****/
+
+/*UNTIL 576px*/
+@media screen and (max-width: 576px){
+/*basics elements*/
+    /*basics elements*/
+    .bgcolor{
+        font-family: fantasy;
+        background-color: rgba(255, 255, 255, .6);
+        border: 1px solid white;
+        border-radius: 5px;
+        margin-top: 50px;
+    }
+
+/*common properties*/
+    h2#apropos, h2#starters, h2#burgers{
+        margin: 30px 0;
+        padding: 0;
+    }
+
+    .apropos p, .starters h3, .burgers li{
+        padding: 0;
+        font-size: 1.1em;
+
+    }
+
+/*images width/height*/
+    .starters img, .burgers img{
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+}
+
+/*FROM 576px sm*/
+@media screen and (min-width: 576px){
+    /*basics elements*/
+    .bgcolor{
+        font-family: fantasy;
+        background-color: rgba(255, 255, 255, .6);
+        border: 1px solid white;
+        border-radius: 5px;
+        margin-top: 50px;
+    }
+
+    /*common properties*/
+    h2#apropos, h2#starters, h2#burgers{
+        width: 100%;
+        margin: 30px 0;
+        padding: 0;
+    }
+
+    .apropos p, .starters h3, .burgers h3, .burgers li{
+        padding: 0;
+        font-size: 1.1em;
+    }
+
+    /*images width/height*/
+    .starters img, .burgers img{
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+}
+
+/*FROM 768px md*/
+@media screen and (min-width: 768px){
+    /*burgers*/
+    .burgers ul{
+        line-height: 1.5em;
+        margin-top: 1.6em;
+    }
+}
+
+/*FROM 1200px md*/
+@media screen and (min-width: 1200px){
+    /*burgers*/
+    .burgers ul{
+        line-height: inherit;
+    }
+}
+/**** LUCILE END ****/
