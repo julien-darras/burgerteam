@@ -21,6 +21,7 @@ body {
 }
 
 .footer {
+    font-family: fantasy;
     background-color: rgba(255, 255, 255, .6);
     border-radius: 5px;
     padding-top: 15px;
@@ -31,7 +32,14 @@ body {
     flex-wrap: wrap;
     width: 85%;
     margin-top: 10px;
+
+    font-size: 20px;
 }
+
+.footer a{
+    color: #551A8B !important;
+}
+
 .social{
 
 
