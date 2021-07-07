@@ -9,19 +9,15 @@ body {
 .text {
     font-family: fantasy;
     background-color: rgba(255, 255, 255, .6);
-    display: flex;
-    flex-wrap: wrap;
-    color: black;
-    height: auto;
-    justify-content: center;
     border: 1px solid white;
     font-size: 30px;
     border-radius: 5px;
-    display: inline;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 30px;
+    text-align: center;
+    justify-content: center;
 }
 
 .footer {
@@ -31,10 +27,19 @@ body {
     padding-bottom: 15px;
     margin: auto;
     margin-top: 50px;
-    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    margin-top: 10px;
 }
+.social{
+
+    
+}
+
 
 .social img {
     height: 30px;
     width: 30px;
+    text-align: right;
 }
