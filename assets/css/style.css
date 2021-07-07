@@ -45,7 +45,7 @@
     line-height: 5px;
 }
 
-li>a {
+nav a {
     color: #551A8B !important;
     font: 30px fantasy;
 }
